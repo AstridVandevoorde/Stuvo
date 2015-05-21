@@ -1,32 +1,35 @@
 header {
   background-color: #E30613;
   width: 100%;
-  height: 130px;
+  height: 65px;
+    position: fixed;
 }
 .navigatie_knop{
   margin-top: 25px;
   margin-left: 30px;
   width: 100%;
-  max-width: 70px;
+  max-width: 30px;
 }
 .stuvo_logo{
   float: right;
-  width: 100%;
-  max-width: 120px;
-  margin-top: -100px;
+  width: 50%;
+  max-width: 55px;
   margin-right: 5px;
+  margin-top:-37px;    
+   
 }
 .nav_knop{
-  width: 100%;
-  max-width: 70px;
-  margin-top: 40px;
-  margin-left: 40px;
+  width: 50%;
+  max-width: 30px;
+  margin-top: 20px;
+  margin-left: 15px;
 }
 .titel_pagina{
   text-align: center;
-  margin-top: -60px;
-  font-size: 70px;
+  margin-top: -23px;
+  font-size: 20px;
   color: white;
 font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
     
 }
