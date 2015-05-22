@@ -16,12 +16,11 @@ h1.selected_campus {
 }
 .slider {
     margin: auto;
-    margin-top:20%;
     padding: 7%;
     max-width: 60%;
     background-color:rgb(222,222,222);
     text-align: center;
-    margin-top:20%;
+    margin-top:5%;
     margin-bottom: 5%;
     clear:both;
 }
@@ -188,7 +187,7 @@ STUDENTENRESTO
 h1{
      text-align: center;
      margin:2%;
-    margin-top:4%;
+    margin-top:20px;
     font-size: 120%;
     float:left;
     vertical-align: top;
@@ -199,7 +198,6 @@ h1{
 .logoresto {
     width: 40%;
     margin-left: 30%;
-    margin-top: 5%;
 }
 .logokot {
     width: 49%;
@@ -214,8 +212,9 @@ h1{
 	border-right:20px solid red; 
     border-radius:10%;
     float:left;
-    margin-left:25%;
     vertical-align: top;
+    margin-top:10px;
+    
 }
 #rightarrow{
     width: 0; 
@@ -226,15 +225,40 @@ h1{
     border-top-right-radius: 30%;
     float:left;
     vertical-align: top;
+    margin-top:10px;
+
 }
-.clearfix{
-    margin-top:10%;
-    overflow:auto;
-    width:50%;
+.wrapper{
+    width:180px;
+    overflow: auto;
+    text-align:center;
+    margin:0 auto;
+    
+}
+.bolletje{
+    border-radius: 20px;
+    margin:5%;
+    padding-left:10%;
+    padding-top:1%;
+    background-color:rgb(220,220,220);
+    display: inline;
+}
+.bolletjes{
+    display:inline-block;
+    width:60%;
+    height:20px;
+    margin-left: 20%; 
+    margin-right: 20%;
     text-align: center;
-    margin-left:25%;
-    margin-right:25%;
-    margin-top:60%;
+    margin-bottom:5%;
+
+   
+}
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
 }
 p{
     font-size:100%;
