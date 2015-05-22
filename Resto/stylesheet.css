@@ -214,6 +214,7 @@ h1{
     float:left;
     vertical-align: top;
     margin-top:10px;
+    margin-right:5px;
     
 }
 #rightarrow{
@@ -226,10 +227,11 @@ h1{
     float:left;
     vertical-align: top;
     margin-top:10px;
+    margin-left:5px;
 
 }
 .wrapper{
-    width:180px;
+    width:200px;
     overflow: auto;
     text-align:center;
     margin:0 auto;
