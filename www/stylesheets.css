@@ -1088,11 +1088,12 @@ margin-top:20%;
   margin-bottom: 5%;
 }
 #bol1, #bol2, #bol3, #bol4, #bol5{
-  border-radius: 20px;
+  border-radius: 50%;
   margin: 5%;
-  padding-left: 20px;
   background-color: rgb(220, 220, 220);
   display: inline;
+    width:50px;
+	height:50px;
 }
 /*sponsors pagina */
 
