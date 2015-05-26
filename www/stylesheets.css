@@ -364,6 +364,7 @@ li {
   margin: auto;
   margin-top: 40px;
   color: white;
+  font-size: 18px;
 }
 .rits_logo {
   width: 100%;
@@ -374,14 +375,15 @@ li {
 }
 .overslaan {
   background-color: #E30613;
-  padding: 20px;
+  padding: 15px;
   border-radius: 10px;
   color: white;
   text-decoration: none;
+  font-size: 18px;
 }
 .knoppen {
   margin: auto;
-  margin-top: 100px;
+  margin-top: 70px;
   text-align: center;
 }
 .form_bier {
@@ -397,10 +399,11 @@ li {
 }
 .verstuur {
   background-color: #E30613;
-  padding: 20px;
+  padding: 15px;
   border-radius: 10px;
   color: white;
   text-decoration: none;
+  font-size: 18px;
 }
 @font-face {
   font-family: Quicksand;
@@ -411,9 +414,6 @@ li {
   src: url(fonts/Quicksand_bold.otf);
 }
 body {
-  margin: 0;
-}
-p {
   margin: 0;
 }
 /*Event*/
@@ -962,76 +962,15 @@ h1.titel_dienst {
 }
 /*  */
 
-/*
-STUDENTENRESTO
-*/
+/*campuSelectie pagina */
 
-.slider h2 {
-  font-weight: 900;
-  margin-top: 2%;
-}
-.h1_campus {
-  text-align: center;
-  margin: 2%;
-  margin-top: 4%;
-  font-size: 120%;
-  float: left;
-  vertical-align: top;
-}
-.slider .weekdag {
-  font-size: 120%;
-}
-.logoresto {
-  width: 40%;
-  margin-left: 30%;
-  margin-top: 5%;
-}
-.logokot {
-  width: 49%;
-  margin-left: 28%;
-  margin-top: 5%
-}
-#leftarrow {
-  width: 0;
-  height: 0;
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent;
-  border-right: 20px solid red;
-  border-radius: 10%;
-  float: left;
-  margin-left: 25%;
-  vertical-align: top;
-}
-#rightarrow {
-  width: 0;
-  height: 0;
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent;
-  border-left: 20px solid red;
-  border-top-right-radius: 30%;
-  float: left;
-  vertical-align: top;
-}
-.clearfix {
-  margin-top: 10%;
-  overflow: auto;
-  width: 50%;
-  text-align: center;
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-top: 60%;
-}
-.slider p {
-  font-size: 100%;
-}
-.body_campus_select {
+#campusSelectie {
   margin: 0;
-  background: #fff url(Atomium.png) no-repeat fixed center;
+  background: #fff url(Atomium.jpg) no-repeat fixed center;
   background-size: cover;
   height: 100%;
-  width: 100%;
 }
-.logo_stuvo_campus {
+#campusSelectie img {
   display: block;
   margin: 0 auto;
   margin-top: 2%;
@@ -1039,26 +978,26 @@ STUDENTENRESTO
   height: 30%;
   width: 30%;
 }
-.Campussen {
+#campusSelectie .Campussen {
   display: block;
   margin: 0 auto;
   width: 70%;
   text-align: center;
 }
-.campus {
+#campusSelectie .campus {
   color: red;
   background-color: rgba(255, 255, 255, 0.9);
   padding: 3% 0;
   margin-bottom: 20px;
   border-radius: 15px;
   font-family: 'Quicksand', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   width: 100%;
   border-color: white;
   border-width: 5px;
   border-style: solid;
 }
-#submit {
+#campusSelectie #submit {
   background-color: red;
   font-family: 'Quicksand', sans-serif;
   font-size: 20px;
@@ -1071,15 +1010,106 @@ STUDENTENRESTO
   padding: 5% 0;
   margin-bottom: 20px;
 }
-.sponsors img {
+/*
+RestoPagina
+*/
+#restomenu #container{
+  margin-top: -10px;
+}
+#restomenu {
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 60px;
+}
+#restomenu .slider {
+  margin: auto;
+  padding: 7%;
+  max-width: 60%;
+  background-color: rgb(222, 222, 222);
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  clear: both;
+}
+#restomenu h1 {
+  text-align: center;
+  margin: 2%;
+  margin-top: 20px;
+  font-size: 18px;
+  float: left;
+  vertical-align: top;
+}
+#restomenu p {
+  font-size: 15px;
+}
+.content_menu1, .content_menu2, .content_menu3, .content_menu4, .content_menu5, .content_menu6{
+  margin-top: 5px;
+}
+#restomenu .slider h2 {
+  font-weight: 900;
+  margin-top: 15px;
+  font-size: 18px;
+}
+#restomenu .slider .weekdag {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+#restomenu #leftarrow {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 20px solid red;
+  border-radius: 10%;
+  float: left;
+  vertical-align: top;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+#restomenu #rightarrow {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid red;
+  border-top-right-radius: 30%;
+  float: left;
+  vertical-align: top;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+#restomenu .wrapper {
+  width: 190px;
+  overflow: auto;
+  text-align: center;
+  margin: 0 auto;
+}
+#restomenu .bolletjes {
+  display: inline-block;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+  margin-bottom: 5%;
+}
+#bol1, #bol2, #bol3, #bol4, #bol5{
+  border-radius: 20px;
+  margin: 5%;
+  padding-left: 20px;
+  background-color: rgb(220, 220, 220);
+  display: inline;
+  height: 20px;
+}
+/*sponsors pagina */
+
+#sponsors .sponsors img {
   margin: 5%;
   vertical-align: top;
   max-height: 20%;
   width: 20%;
 }
-.sponsors {
+#sponsors .sponsors {
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 70px;
   margin-bottom: 20px;
   margin-left: 5%;
   margin-right: 5%;
