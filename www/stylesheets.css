@@ -1077,6 +1077,7 @@ RestoPagina
   overflow: auto;
   text-align: center;
   margin: 0 auto;
+margin-top:20%;
 }
 #restomenu .bolletjes {
   display: inline-block;
@@ -1092,7 +1093,6 @@ RestoPagina
   padding-left: 20px;
   background-color: rgb(220, 220, 220);
   display: inline;
-  height: 20px;
 }
 /*sponsors pagina */
 
