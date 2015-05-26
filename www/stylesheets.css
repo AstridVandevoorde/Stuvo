@@ -1,4 +1,4 @@
-body {
+abody {
   font-family: 'Quicksand', sans-serif;
 }
 /*************NAV***********/
@@ -16,7 +16,7 @@ body {
   /*margin-left: -180px;*/
   display: none;
   position: absolute;
-  margin-top: -20px;
+  margin-top: -15px;
 }
 .main li {
   list-style-type: none;
@@ -40,6 +40,8 @@ ul {
   position: relative;
   text-decoration: none;
   color: white;
+    margin-left: 30px;
+    margin-top: 10px;
 }
 li {
   padding: 20px 20px 20px 20px;
@@ -52,6 +54,14 @@ li {
 }
 .clearFix {
   clear: both;
+}
+.nav_img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: -10px;
+    
 }
 /*************NEWS***********/
 
