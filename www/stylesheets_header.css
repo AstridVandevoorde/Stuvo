@@ -1,7 +1,7 @@
 header {
   background-color: #E30613;
   width: 100%;
-  height: 10%;
+  height: 60px;
   position: fixed;
   top: 0;
 }
@@ -15,12 +15,19 @@ header {
 .nav_knop{
   width: 100%;
   max-width: 30px;
-  margin-top: 20px;
+  margin-top: 17px;
   margin-left: 20px;
 }
 .titel_pagina{
   text-align: center;
   font-size: 25px;
   color: white;
-  margin-top: -25px;
+  margin-top: -27px;
+}
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2em;
+}
+ul {
+  z-index: 1000;
 }
