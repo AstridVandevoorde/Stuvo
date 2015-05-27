@@ -153,15 +153,15 @@ li {
   font-size: 20px;
 }
 .h1_check1 {
-  margin-left: -200px;
+  margin-left: -250px;
   margin-top: 17px;
 }
 .h1_check2 {
-  margin-left: -200px;
+  margin-left: -250px;
   margin-top: 17px;
 }
 .h1_check3 {
-  margin-left: -200px;
+  margin-left: -250px;
   margin-top: 17px;
 }
 .ver_campus {
@@ -555,38 +555,6 @@ margin-bottom: 5%;
 /*
 HEADER
 */
-
-header {
-  background-color: #E30613;
-  width: 100%;
-  height: 10%;
-  position: fixed;
-}
-.stuvo_logo {
-  float: right;
-  max-width: 14%;
-  margin-top: -10%;
-  margin-right: 6%;
-}
-.nav_knop {
-  width: 100%;
-  max-width: 25px;
-  margin-top: 20px;
-  margin-left: 20px;
-}
-.titel_pagina {
-  text-align: center;
-  font-size: 75%;
-  ;
-  color: white;
-}
-body {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 2em;
-}
-ul {
-  z-index: 1000;
-}
 /*
 
 RestoPagina
