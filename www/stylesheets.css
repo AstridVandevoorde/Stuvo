@@ -539,10 +539,13 @@ body {
   text-align: justify;
 }
 .terugknop_pierre {
-  position: fixed;
+    position: fixed;
+  font-size: 50%;
   top: 90%;
   left: 10%;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
+  background-color: white;
 }
 #link {
   text-decoration: none;
