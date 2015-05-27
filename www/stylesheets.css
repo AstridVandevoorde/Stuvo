@@ -945,3 +945,8 @@ a.close {
     position: absolute;
     margin-top: 10px;
 }
+.uitleg_event_p {
+    font-family: Quicksand;
+    font-size: 15px;
+    margin-top: 310px;
+}
