@@ -11,7 +11,7 @@ $(document).ready(function () {
             console.dir(err);
         },
         success: function (data) {
-            var firstTimeNieuws = localStorage.getItem('test');
+            var firstTimeNieuws = localStorage.getItem('firstTimeNieuws');
             console.log("test: " + firstTimeNieuws);
             if(firstTimeNieuws == null){
 
