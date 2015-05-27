@@ -37,7 +37,7 @@ $(document).ready(function () {
       if($("#wrapper").length === 0){
         console.log("bestaat niet");
       }else{
-        $('#wrapper').css("z-index","inherit");
+        window.location.href = "restomenu_twee.html";
       }
     }
 

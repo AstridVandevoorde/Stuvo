@@ -11,6 +11,24 @@ $(document).ready(function () {
             console.dir(err);
         },
         success: function (data) {
+          var firstTimeResto = localStorage.getItem('firstTimeResto');
+            console.log("test: " + firstTimeResto);
+            if(firstTimeResto == null){
+                $('#wrapper').css("z-index",-40);
+
+                $(".overlay").fadeToggle("fast");
+            }
+             $(".close").click(function () {
+                $(".overlay").fadeToggle("fast");
+                firstTimeResto == false;
+                localStorage.setItem('firstTimeResto', JSON.stringify(firstTimeResto));
+                window.location.href = "restomenu_twee.html";
+
+
+
+            });
+
+
           console.log(data.menu["MAANDAG/LUNDI"]["Soep"]);
 
           var carousel,
