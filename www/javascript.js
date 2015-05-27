@@ -10,10 +10,10 @@ $(document).ready(function () {
   var firstTimeBeer = localStorage.getItem('firstTimeBeer');
   var firstTimeEvent = localStorage.getItem('firstTimeEvent');
   var firstTimeResto = localStorage.getItem('firstTimeResto');
-  var firstTimeNieuws = localStorage.getItem('firstTimeNieuws');
+  
 
   console.log(firstTimeApp);
-  if(firstTimeApp == ""){
+  if(firstTimeApp == null){
     firstTimeApp = false;
     localStorage.setItem('firstTimeApp', JSON.stringify(firstTimeApp));
     firstTimeBeer = "bierActive";
