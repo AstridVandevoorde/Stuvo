@@ -6,6 +6,22 @@ jquery: true
 
 $(document).ready(function () {
   var menu_active = false;
+  var firstTimeApp = localStorage.getItem('firstTimeApp');
+  var firstTimeBeer = localStorage.getItem('firstTimeBeer');
+  var firstTimeEvent = localStorage.getItem('firstTimeEvent');
+  var firstTimeResto = localStorage.getItem('firstTimeResto');
+  var firstTimeNieuws = localStorage.getItem('firstTimeNieuws');
+
+  console.log(firstTimeApp);
+  if(firstTimeApp == ""){
+    firstTimeApp = false;
+    localStorage.setItem('firstTimeApp', JSON.stringify(firstTimeApp));
+    firstTimeBeer = "bierActive";
+    localStorage.setItem('firstTimeBeer', JSON.stringify(firstTimeBeer));
+    window.location.href = "CampusSelectie.html";
+
+  }
+
 
   $('.nav_knop').on('click', function () {
     $('#container').slideToggle();
