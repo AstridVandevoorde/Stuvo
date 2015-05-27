@@ -14,29 +14,9 @@
   <script src="jquery-1.11.3.min.js" type="text/javascript"></script>
   <script src="API_Nieuws.js" type="text/javascript"></script>
   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-  <script src="search.js" type="text/javascript">
   </script>
-  <script>
-    $(document).ready(function () {
-      $("#loginLink").click(function (event) {
-        event.preventDefault();
-        $(".overlay").fadeToggle("fast");
-      });
-      $(".overlayLink").click(function (event) {
-        event.preventDefault();
-        $(".overlay").fadeToggle("fast");
-      });
-      $(".close").click(function () {
-        $(".overlay").fadeToggle("fast");
-      });
-      $(document).keyup(function (e) {
-        if (e.keyCode == 27 && $(".overlay").css("display") != "none") {
-          event.preventDefault();
-          $(".overlay").fadeToggle("fast");
-        }
-      });
-    });
-  </script>
+
+
 </head>
 
 <body>
