@@ -6,10 +6,10 @@
         id        = "com.phonegap.helloworld"
         version   = "1.0.0">
 
-    <name>Stuvo App</name>
+    <name>Stuvo</name>
 
     <description>
-      Stuvapp
+      Stuvo applicatie gemaakt door TEAM L van EHB multec 2015
     </description>
 
     <author href="http://phonegap.com" email="support@phonegap.com">
