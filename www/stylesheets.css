@@ -849,7 +849,7 @@ RestoPagina
 #restomenu h1 {
 	text-align: center;
 	margin: 2%;
-	margin-top: 20px;
+	margin-top: 15px;
 	font-size: 18px;
 	float: left;
 	vertical-align: top;
@@ -869,9 +869,9 @@ RestoPagina
 #restomenu #leftarrow {
 	width: 0;
 	height: 0;
-	border-top: 20px solid transparent;
-	border-bottom: 20px solid transparent;
-	border-right: 20px solid red;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-right: 15px solid red;
 	border-radius: 10%;
 	float: left;
 	vertical-align: top;
@@ -881,9 +881,9 @@ RestoPagina
 #restomenu #rightarrow {
 	width: 0;
 	height: 0;
-	border-top: 20px solid transparent;
-	border-bottom: 20px solid transparent;
-	border-left: 20px solid red;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-left: 15px solid red;
 	border-top-right-radius: 30%;
 	float: left;
 	vertical-align: top;
@@ -891,11 +891,12 @@ RestoPagina
 	margin-left: 5px;
 }
 #restomenu .wrapper {
-	width: 190px;
+	width: 170px;
 	overflow: auto;
 	text-align: center;
 	margin: 0 auto;
 	margin-top: 20%;
+	margin-bottom:5%;
 }
 #restomenu .bolletjes {
 	display: inline-block;
