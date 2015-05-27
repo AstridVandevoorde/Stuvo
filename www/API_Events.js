@@ -79,7 +79,7 @@ $(document).ready(function () {
                                     console.log(getEvent[y]);
                                     console.log(getEvent[y].name);*/
                                     console.log(getEvent[y]);
-                                    htmlString +=  '<div class="item_calender"><div class="days">'+getEvent[y].date.startday+'</div><h2 class="event_title">'+ getEvent[y].name +'</h2><p class="event_description">Locatie - 9:00AM <br>Lorem ipsum drinkt graag bier, en overal is er plezier. Ipsum drinkt graag bier, en overal is er plezier.</p><a href="event_detail.html" class="link_event_detail">Lees verder</a></div>'
+                                    htmlString +=  '<div class="item_calender"><div class="days">'+getEvent[y].date.startday+'</div><h2 class="event_title">'+ getEvent[y].name +'</h2><p class="event_description">Locatie - 9:00AM <br>Lorem ipsum drinkt graag bier, en overal is er plezier. Ipsum drinkt graag bier, en overal is er plezier.</div>'
 
                                 }
                                 //Maand sluiten
