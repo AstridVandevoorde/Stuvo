@@ -56,7 +56,6 @@
 	-webkit-box-pack:center;
 	-webkit-box-align:center;
 	overflow:hidden;
-	z-index: -40;
 }
 
 #swipeview-slider span {
