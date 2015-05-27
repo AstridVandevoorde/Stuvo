@@ -16,11 +16,48 @@
   <script type="text/javascript" src="swipeview.js"></script>
   <script type="text/javascript" src="API_Resto.js"></script>
   <link rel="stylesheet" href="style.css">
-
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script>
+        $(document).ready(function () {
+            $("#loginLink").click(function (event) {
+                event.preventDefault();
+                $(".overlay").fadeToggle("fast");
+            });
+            $(".overlayLink").click(function (event) {
+                event.preventDefault();
+                $(".overlay").fadeToggle("fast");
+            });
+            $(".close").click(function () {
+                $(".overlay").fadeToggle("fast");
+            });
+            $(document).keyup(function (e) {
+                if (e.keyCode == 27 && $(".overlay").css("display") != "none") {
+                    event.preventDefault();
+                    $(".overlay").fadeToggle("fast");
+                }
+            });
+        });
+    </script>
 
 </head>
 
 <body id="restomenu">
+    <a href="register.php" class="overlayLink" data-action="registration-form.html">LOGO</a>
+    <div class="overlay" style="display: none;">
+        <div class="login-wrapper">
+            <div class="login-content">
+                
+                <div class="uitleg_campus"><img class="pijl_campus" src="pijl_4.png"><p class="uitleg_campus_p">Selecteer je campus<br>(indien nodig)</p></div>
+                <div class="uitleg_resto"><img class="pijl_resto" src="pijl_3.png"><p class="uitleg_resto_p">Swipe naar links of naar rechts om van dag te veranderen.</p></div>
+            <div class="Bever_sluit"></div><a class="close"><img class="bever_overlay" src="Bever_3.png"></a>
+                    <!--link naar contact pagina, beter een nieuwe pagina voor maken-->
+                        <!--link naar contact pagina-->
+                        <div class="wrapperimage">
+                            <!--andere naam voor het logo-->
+                    </div>
+            </div>
+        </div>
+    </div>
   <header>
     <img class="nav_knop" src="nav_knop.png" alt="nav knop">
     <p class="titel_pagina">Resto</p>

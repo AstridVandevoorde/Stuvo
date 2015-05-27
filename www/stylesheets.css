@@ -910,7 +910,7 @@ a.close {
     right: 1.25rem;
     margin-top: 20px;
 }
-.bever {
+.bever_overlay {
     width: 100px;
     height: 150px;
     position: absolute;
@@ -950,4 +950,19 @@ a.close {
     font-family: Quicksand;
     font-size: 15px;
     margin-top: 310px;
+}
+.uitleg_campus {
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 95px;
+}
+.pijl_campus {
+    margin-top: -12px;
+}
+.uitleg_resto {
+    position: absolute;
+    margin-top: 210px;  
+}
+.pijl_resto {
+    margin-left: 70px;   
 }
