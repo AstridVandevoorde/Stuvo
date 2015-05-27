@@ -2,19 +2,21 @@
 <html lang="en">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
   <title>Stuvo</title>
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="stylesheets.css">
   <link rel="stylesheet" href="stylesheets_header.css">
   <link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
-     <link rel="stylesheet" href="font-awesome.min.css">
+  <link rel="stylesheet" href="font-awesome.min.css">
   <link href="FontAwesome.otf">
+  <script src="search.js" type="text/javascript">
+  </script>
 </head>
 
 <body>
-    <header>
+  <header>
     <img class="nav_knop" src="nav_knop.png" alt="nav knop">
     <p class="titel_pagina">Sponsors</p>
     <img class="stuvo_logo" src="stuvo_logo.png" alt="stuvo logo">
@@ -47,31 +49,45 @@
               <img class="nav_img" src="trofee.png">Sponsors</a>
           </li>
           <li>
-            <a id="navigatie_link" href="#">
-              <img class="nav_img" src="zoek.png">
-              Zoek</a>
+            <a class="overlayLink" id="navigatie_link" href="#">
+              <img class="nav_img" src="zoek.png">Zoek
+            </a>
           </li>
 
         </ul>
       </nav>
     </div>
   </header>
+  <div class="overlay" style="display: none;">
+    <div class="login-wrapper">
+      <div class="login-content">
+        <form class="form_zoek">
+          <input class="zoek" type="text" name="Search" placeholder="Zoek">
+        </form>
+        <a class="close">X</a>
+        <div class="Bever_sluit"></div>
+        <div class="wrapperimage">
+          <!--andere naam voor het logo-->
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="squaredFour">
     <h1 class="h1_check1">Notifications</h1>
-    <input type="checkbox" value="None" id="squaredFour" name="check" style='opacity:0;'/>
+    <input type="checkbox" value="None" id="squaredFour" name="check" style='opacity:0;' />
     <label for="squaredFour"></label>
   </div>
   <div class="squaredFour_2">
     <h1 class="h1_check2">Linken met outlook</h1>
-    <input type="checkbox" value="None" id="squaredFour_2" name="check"  style='opacity:0;'/>
+    <input type="checkbox" value="None" id="squaredFour_2" name="check" style='opacity:0;' />
     <label for="squaredFour_2"></label>
   </div>
   <div class="squaredFour_3">
     <h1 class="h1_check3">Pushberichten</h1>
-    <input type="checkbox" value="None" id="squaredFour_3" name="check"  style='opacity:0;' />
+    <input type="checkbox" value="None" id="squaredFour_3" name="check" style='opacity:0;' />
     <label for="squaredFour_3"></label>
   </div>
-  
+
   <a href="CampusSelectie.html" class="ver_campus">
       VERANDER CAMPUS
   </a>

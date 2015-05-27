@@ -16,6 +16,8 @@
   </script>
   <script src="erzfzef.js" type="text/javascript"></script>
   <script src="javascript.js" type="text/javascript"></script>
+   <script src="search.js" type="text/javascript">
+  </script>
 </head>
 
 <body>
@@ -24,29 +26,36 @@
     <p class="titel_pagina">Diensten</p>
     <img class="stuvo_logo" src="stuvo_logo.png" alt="stuvo logo">
     <br class="clearFix">
- <div id="container">
-   <nav class="main">
+    <div id="container">
+      <nav class="main">
         <ul>
           <li>
-            <a id="navigatie_link" href="index.html"><img class="nav_img" src="bullhorn.png">Nieuws</a>
+            <a id="navigatie_link" href="index.html">
+              <img class="nav_img" src="bullhorn.png">Nieuws</a>
           </li>
           <li>
-            <a id="navigatie_link" href="events.html"><img class="nav_img" src="calender.png">Events</a>
+            <a id="navigatie_link" href="events.html">
+              <img class="nav_img" src="calender.png">Events</a>
           </li>
           <li>
-            <a id="navigatie_link" href="restomenu_twee.html"><img class="nav_img" src="resto.png">Resto</a>
+            <a id="navigatie_link" href="restomenu_twee.html">
+              <img class="nav_img" src="resto.png">Resto</a>
           </li>
           <li>
-            <a id="navigatie_link" href="Diensten.html"><img class="nav_img" src="phone_2.png">Diensten</a>
+            <a id="navigatie_link" href="Diensten.html">
+              <img class="nav_img" src="phone_2.png">Diensten</a>
           </li>
           <li>
-            <a id="navigatie_link" href="Settings.html"><img class="nav_img" src="moer.png">Settings</a>
+            <a id="navigatie_link" href="Settings.html">
+              <img class="nav_img" src="moer.png">Settings</a>
           </li>
           <li>
-            <a id="navigatie_link" href="Sponsors.html"><img class="nav_img" src="trofee.png">Sponsors</a>
+            <a id="navigatie_link" href="Sponsors.html">
+              <img class="nav_img" src="trofee.png">Sponsors</a>
           </li>
           <li>
-            <a id="navigatie_link" href="#"><img class="nav_img" src="zoek.png">Zoek</a>
+            <a class="overlayLink" id="navigatie_link" href="#">
+              <img class="nav_img" src="zoek.png">Zoek</a>
           </li>
 
         </ul>
@@ -54,40 +63,56 @@
     </div>
   </header>
 
-  
-        <h1 class="titel_dienst">STUDENTENRESTO'S</h1>
+  <div class="overlay" style="display: none;">
+    <div class="login-wrapper">
+      <div class="login-content">
+        <form class="form_zoek">
+          <input class="zoek" type="text" name="Search" placeholder="Zoek">
+        </form>
+        <a class="close">X</a>
+        <div class="Bever_sluit"></div>
+        <div class="wrapperimage">
+          <!--andere naam voor het logo-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <h1 class="titel_dienst">STUDENTENRESTO'S</h1>
 
-        <p class="over_stuvo">Goed, gezond, gezellig en goedkoop eten op de campus:<br>
-        -Koninklijk Conservatorium(Brussel)
-        <br>-resto Bloemenhof(Brussel)
-        <br>-resto Nijverheidskaai(Anderlecht)
-        <br>-The Link(Jette)
-        <br>-Rits Café(Brussel)
-        <br> In samenwerking met VUB resto's in Kette en Etterbeek
-        
-        
-        </p>
+  <p class="over_stuvo">Goed, gezond, gezellig en goedkoop eten op de campus:
+    <br>-Koninklijk Conservatorium(Brussel)
+    <br>-resto Bloemenhof(Brussel)
+    <br>-resto Nijverheidskaai(Anderlecht)
+    <br>-The Link(Jette)
+    <br>-Rits Café(Brussel)
+    <br>In samenwerking met VUB resto's in Kette en Etterbeek
 
-        
-    
-    <div class="restologo">
-        <img class="logoresto" alt="logoluisterendoor" src="icon-resto's_titel.png" width="40%"/> </div>
- 
-    
-<div class="infodepartement">
-           <img class="iconillustration1" src="persoon.png" alt="iconpersoon" >
-            <p class="infoPerDepartement">Departement Studentenfinancien</p>
-            <p class="Naam">Bram vandeput</p>
-            <img class="iconillustration2" src="phone.png" alt="icontelefoon">
-            <p class="telefoonnummer">027570258</p>
-            <a href="mailto:youremailaddress"> 
-            <img class="iconillustration3" src="arobase.png" alt="iconarobase">
-            </a>
-            <p class="emailadres1">centenn@ehb.be</p>
-            <p class="emailadres2">financien@ehb.be</p>
-        </div><br>
-        
-      <a class="terugknop_pierre" href="Diensten.html">&#60 TERUG</a>
-    
-    </body>
-	</html>
+
+  </p>
+
+
+
+  <div class="restologo">
+    <img class="logoresto" alt="logoluisterendoor" src="icon-resto's_titel.png" width="40%" />
+  </div>
+
+
+  <div class="infodepartement">
+    <img class="iconillustration1" src="persoon.png" alt="iconpersoon">
+    <p class="infoPerDepartement">Departement Studentenfinancien</p>
+    <p class="Naam">Bram vandeput</p>
+    <img class="iconillustration2" src="phone.png" alt="icontelefoon">
+    <p class="telefoonnummer">027570258</p>
+    <a href="mailto:youremailaddress">
+      <img class="iconillustration3" src="arobase.png" alt="iconarobase">
+    </a>
+    <p class="emailadres1">centenn@ehb.be</p>
+    <p class="emailadres2">financien@ehb.be</p>
+  </div>
+  <br>
+
+  <a class="terugknop_pierre" href="Diensten.html">&#60 TERUG</a>
+
+</body>
+
+</html>

@@ -12,19 +12,23 @@
   <link rel="stylesheet" href="font-awesome.min.css">
   <link href="FontAwesome.otf">
   <script src="jquery-1.11.3.min.js" type="text/javascript"></script>
-  <script  src="API_Events.js" type="text/javascript"></script>
+  <script src="API_Events.js" type="text/javascript"></script>
   <script src="erzfzef.js" type="text/javascript"></script>
   <script src="javascript.js" type="text/javascript"></script>
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="search.js" type="text/javascript">
+  </script>
 </head>
 
 <body>
   <header>
     <img class="nav_knop" src="nav_knop.png" alt="nav knop">
     <p class="titel_pagina">Events</p>
-    
-      <a href="register.php" class="overlayLink" data-action="registration-form.html"><img class="stuvo_logo" src="stuvo_logo.png" alt="stuvo logo"></a>
-  
+
+    <a href="register.php" class="overlayLink" data-action="registration-form.html">
+      <img class="stuvo_logo" src="stuvo_logo.png" alt="stuvo logo">
+    </a>
+
 
     <br class="clearFix">
 
@@ -33,49 +37,78 @@
       <nav class="main">
         <ul>
           <li>
-            <a id="navigatie_link" href="index.html"><img class="nav_img" src="bullhorn.png">Nieuws</a>
+            <a id="navigatie_link" href="index.html">
+              <img class="nav_img" src="bullhorn.png">Nieuws</a>
           </li>
           <li>
-            <a id="navigatie_link" href="events.html"><img class="nav_img" src="calender.png">Events</a>
+            <a id="navigatie_link" href="events.html">
+              <img class="nav_img" src="calender.png">Events</a>
           </li>
           <li>
-            <a id="navigatie_link" href="restomenu_twee.html"><img class="nav_img" src="resto.png">Resto</a>
+            <a id="navigatie_link" href="restomenu_twee.html">
+              <img class="nav_img" src="resto.png">Resto</a>
           </li>
           <li>
-            <a id="navigatie_link" href="Diensten.html"><img class="nav_img" src="phone_2.png">Diensten</a>
+            <a id="navigatie_link" href="Diensten.html">
+              <img class="nav_img" src="phone_2.png">Diensten</a>
           </li>
           <li>
-            <a id="navigatie_link" href="Settings.html"><img class="nav_img" src="moer.png">Settings</a>
+            <a id="navigatie_link" href="Settings.html">
+              <img class="nav_img" src="moer.png">Settings</a>
           </li>
           <li>
-            <a id="navigatie_link" href="Sponsors.html"><img class="nav_img" src="trofee.png">Sponsors</a>
+            <a id="navigatie_link" href="Sponsors.html">
+              <img class="nav_img" src="trofee.png">Sponsors</a>
           </li>
           <li>
-            <a id="navigatie_link" href="#"><img class="nav_img" src="zoek.png"></i>Zoek</a>
+            <a class="overlayLink" id="navigatie_link" href="#">
+              <img class="nav_img" src="zoek.png">
+              </i>Zoek</a>
           </li>
 
         </ul>
       </nav>
     </div>
   </header>
-    <div class="overlay" style="display: none;">
-        <div class="login-wrapper">
-            <div class="login-content">
-                
-                <div class="uitleg_event"><p class="uitleg_event_p">Bekijk hier de evenementen.<br><br>
-                    Ga ook eens kijken op facebook en deel het evenement.</p></div>
-            <div class="Bever_sluit"></div><a class="close"><img class="bever_overlay" src="Bever_3.png"></a>
-                    <!--link naar contact pagina, beter een nieuwe pagina voor maken-->
-                        <!--link naar contact pagina-->
-                        <div class="wrapperimage">
-                            <!--andere naam voor het logo-->
-                    </div>
-            </div>
+
+  <div class="overlay" style="display: none;">
+    <div class="login-wrapper">
+      <div class="login-content">
+        <form class="form_zoek">
+          <input class="zoek" type="text" name="Search" placeholder="Zoek">
+        </form>
+        <a class="close">X</a>
+        <div class="Bever_sluit"></div>
+        <div class="wrapperimage">
+          <!--andere naam voor het logo-->
         </div>
+      </div>
     </div>
+  </div>
+  <div class="overlay" style="display: none;">
+    <div class="login-wrapper">
+      <div class="login-content">
+
+        <div class="uitleg_event">
+          <p class="uitleg_event_p">Bekijk hier de evenementen.
+            <br>
+            <br>Ga ook eens kijken op facebook en deel het evenement.</p>
+        </div>
+        <div class="Bever_sluit"></div>
+        <a class="close">
+          <img class="bever_overlay" src="Bever_3.png">
+        </a>
+        <!--link naar contact pagina, beter een nieuwe pagina voor maken-->
+        <!--link naar contact pagina-->
+        <div class="wrapperimage">
+          <!--andere naam voor het logo-->
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="wrapper">
-      
-         
+
+
   </div>
 </body>
 

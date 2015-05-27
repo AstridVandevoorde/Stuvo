@@ -16,81 +16,115 @@
   <script type="text/javascript" src="swipeview.js"></script>
   <script type="text/javascript" src="API_Resto.js"></script>
   <link rel="stylesheet" href="style.css">
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-<script>
-        $(document).ready(function () {
-            $("#loginLink").click(function (event) {
-                event.preventDefault();
-                $(".overlay").fadeToggle("fast");
-            });
-            $(".overlayLink").click(function (event) {
-                event.preventDefault();
-                $(".overlay").fadeToggle("fast");
-            });
-            $(".close").click(function () {
-                $(".overlay").fadeToggle("fast");
-            });
-            $(document).keyup(function (e) {
-                if (e.keyCode == 27 && $(".overlay").css("display") != "none") {
-                    event.preventDefault();
-                    $(".overlay").fadeToggle("fast");
-                }
-            });
-        });
-    </script>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="search.js" type="text/javascript">
+  </script>
+  <script>
+    $(document).ready(function () {
+      $("#loginLink").click(function (event) {
+        event.preventDefault();
+        $(".overlay").fadeToggle("fast");
+      });
+      $(".overlayLink").click(function (event) {
+        event.preventDefault();
+        $(".overlay").fadeToggle("fast");
+      });
+      $(".close").click(function () {
+        $(".overlay").fadeToggle("fast");
+      });
+      $(document).keyup(function (e) {
+        if (e.keyCode == 27 && $(".overlay").css("display") != "none") {
+          event.preventDefault();
+          $(".overlay").fadeToggle("fast");
+        }
+      });
+    });
+  </script>
 
 </head>
 
 <body id="restomenu">
-    <div class="overlay" style="display: none;">
-        <div class="login-wrapper">
-            <div class="login-content">
-                
-                <div class="uitleg_campus"><img class="pijl_campus" src="pijl_4.png"><p class="uitleg_campus_p">Selecteer je campus<br>(indien nodig)</p></div>
-                <div class="uitleg_resto"><img class="pijl_resto" src="pijl_3.png"><p class="uitleg_resto_p">Swipe naar links of naar rechts om van dag te veranderen.</p></div>
-            <div class="Bever_sluit"></div><a class="close"><img class="bever_overlay" src="Bever_3.png"></a>
-                    <!--link naar contact pagina, beter een nieuwe pagina voor maken-->
-                        <!--link naar contact pagina-->
-                        <div class="wrapperimage">
-                            <!--andere naam voor het logo-->
-                    </div>
-            </div>
+  <div class="overlay" style="display: none;">
+    <div class="login-wrapper">
+      <div class="login-content">
+
+        <div class="uitleg_campus">
+          <img class="pijl_campus" src="pijl_4.png">
+          <p class="uitleg_campus_p">Selecteer je campus
+            <br>(indien nodig)</p>
         </div>
+        <div class="uitleg_resto">
+          <img class="pijl_resto" src="pijl_3.png">
+          <p class="uitleg_resto_p">Swipe naar links of naar rechts om van dag te veranderen.</p>
+        </div>
+        <div class="Bever_sluit"></div>
+        <a class="close">
+          <img class="bever_overlay" src="Bever_3.png">
+        </a>
+        <!--link naar contact pagina, beter een nieuwe pagina voor maken-->
+        <!--link naar contact pagina-->
+        <div class="wrapperimage">
+          <!--andere naam voor het logo-->
+        </div>
+      </div>
     </div>
+  </div>
   <header>
     <img class="nav_knop" src="nav_knop.png" alt="nav knop">
     <p class="titel_pagina">Resto</p>
     <img class="stuvo_logo" src="stuvo_logo.png" alt="stuvo logo">
     <br class="clearFix">
- <div id="container">
-   <nav class="main">
+    <div id="container">
+      <nav class="main">
         <ul>
           <li>
-            <a id="navigatie_link" href="index.html"><img class="nav_img" src="bullhorn.png">Nieuws</a>
+            <a id="navigatie_link" href="index.html">
+              <img class="nav_img" src="bullhorn.png">Nieuws</a>
           </li>
           <li>
-            <a id="navigatie_link" href="events.html"><img class="nav_img" src="calender.png">Events</a>
+            <a id="navigatie_link" href="events.html">
+              <img class="nav_img" src="calender.png">Events</a>
           </li>
           <li>
-            <a id="navigatie_link" href="restomenu_twee.html"><img class="nav_img" src="resto.png">Resto</a>
+            <a id="navigatie_link" href="restomenu_twee.html">
+              <img class="nav_img" src="resto.png">Resto</a>
           </li>
           <li>
-            <a id="navigatie_link" href="Diensten.html"><img class="nav_img" src="phone_2.png">Diensten</a>
+            <a id="navigatie_link" href="Diensten.html">
+              <img class="nav_img" src="phone_2.png">Diensten</a>
           </li>
           <li>
-            <a id="navigatie_link" href="Settings.html"><img class="nav_img" src="moer.png">Settings</a>
+            <a id="navigatie_link" href="Settings.html">
+              <img class="nav_img" src="moer.png">Settings</a>
           </li>
           <li>
-            <a id="navigatie_link" href="Sponsors.html"><img class="nav_img" src="trofee.png">Sponsors</a>
+            <a id="navigatie_link" href="Sponsors.html">
+              <img class="nav_img" src="trofee.png">Sponsors</a>
           </li>
           <li>
-            <a id="navigatie_link" href="#"><img class="nav_img" src="zoek.png">Zoek</a>
+            <a class="overlayLink" id="navigatie_link" href="#">
+              <img class="nav_img" src="zoek.png">Zoek</a>
           </li>
 
         </ul>
       </nav>
     </div>
   </header>
+
+  <div class="overlay" style="display: none;">
+    <div class="login-wrapper">
+      <div class="login-content">
+        <form class="form_zoek">
+          <input class="zoek" type="text" name="Search" placeholder="Zoek">
+        </form>
+        <a class="close">X</a>
+        <div class="Bever_sluit"></div>
+        <div class="wrapperimage">
+          <!--andere naam voor het logo-->
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="wrapper">
     <div id="leftarrow"></div>
     <h1>Campus Kaai</h1>
@@ -98,7 +132,7 @@
   </div>
   <div id="wrapper"></div>
   <div class="bolletjes">
-	<div id="bol1"></div>
+    <div id="bol1"></div>
     <div id="bol2"></div>
     <div id="bol3"></div>
     <div id="bol4"></div>
