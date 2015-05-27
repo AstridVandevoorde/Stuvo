@@ -17,6 +17,19 @@ $(document).ready(function () {
             console.dir(err);
         },
         success: function (data) {
+             var firstTimeEvent = localStorage.getItem('firstTimeEvent');
+            if(firstTimeEvent == null){
+
+                $(".overlay").fadeToggle("fast");
+            }
+             $(".close").click(function () {
+                $(".overlay").fadeToggle("fast");
+                firstTimeEvent == false;
+                localStorage.setItem('firstTimeEvent', JSON.stringify(firstTimeEvent));
+
+            });
+
+
             Object.byString = function(o, s) {
                 s = s.replace(/\[(\w+)\]/g, '.$1'); // convert indexes to properties
                 s = s.replace(/^\./, '');           // strip a leading dot
