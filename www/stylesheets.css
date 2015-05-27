@@ -420,18 +420,17 @@ body {
 }
 .days {
   background-color: rgb(227, 6, 19);
-  width: 27px;
-  height: 27px;
-  padding-top: 3px;
-  padding-left: 3px;
-  border-radius: 30px;
+ display:inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
   font-size: 20px;
+	margin-top:3px;
+	margin-left:5px;
   color: white;
-  line-height: 30px;
+  line-height: 40px;
   position: absolute;
-  top: 5px;
   text-align: center;
-  left: 5px;
   font-family: 'Quicksand', sans-serif;
 }
 .item_calender {
@@ -449,6 +448,7 @@ body {
 .h1-event {
   font-size: 27px;
   margin-left: 5%;
+	margin-bottom: 5%;
   color: rgb(227, 6, 19);
   font-family: 'Quicksand', sans-serif;
 }
