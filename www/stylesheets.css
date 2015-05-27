@@ -538,10 +538,10 @@ body {
   font-size: 14px;
   text-align: justify;
 }
-.terugknop {
-  margin-top: 45%;
-  margin-left: 5%;
-  width: 20%;
+.terugknop_pierre {
+  position: fixed;
+  top: 90%;
+  left: 10%;
 }
 #link {
   text-decoration: none;
