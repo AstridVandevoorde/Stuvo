@@ -985,7 +985,7 @@ a.close {
 	height: 150px;
 	position: absolute;
 	right: 5px;
-	top: -70px;
+	top: 370px;
 }
 .menu_uitleg {
 	font-size: 15px;
@@ -1023,15 +1023,18 @@ a.close {
 }
 .uitleg_campus {
 	position: absolute;
-	margin-top: 65px;
-	margin-left: 95px;
+	margin-top: 105px;
+	margin-left: 75px;
+    font-size: 15px;
 }
 .pijl_campus {
-	margin-top: -12px;
+    position: absolute;
+    margin-top: -45px;
 }
 .uitleg_resto {
 	position: absolute;
 	margin-top: 210px;
+    font-size: 15px;
 }
 .pijl_resto {
 	margin-left: 70px;
