@@ -558,91 +558,7 @@ HEADER
 */
 /*
 
-RestoPagina
 
-*/
-
-.selected_campus {
-  position: static;
-  text-align: center;
-  font-size: 70%;
-  margin-top: 25%;
-  margin-bottom: 5%;
-}
-.content_menu {
-  font-size: 65%;
-}
-.dagvdweek {
-  font-size: 70%;
-  margin: auto;
-}
-.gerechten_categorie {
-  font-weight: 700;
-  font-size: 60%;
-}
-.arrow_campuslinks {
-  position: absolute;
-  top: 14%;
-  left: 12%;
-  width: 5%;
-}
-.arrow_campusrechts {
-  position: absolute;
-  top: 14%;
-  width: 5%;
-  left: 84%;
-}
-/* DIENSTEN */
-
-.all_content {
-  margin-top: 20%;
-}
-.overstuvo_titel {
-  font-size: 75%;
-  text-align: center;
-  margin-top: 30%;
-  margin-bottom: 10%;
-}
-.over_stuvo {
-  font-size: 50%;
-}
-.nav_knop {
-  width: 20%;
-}
-.over_stuvo {
-  max-width: 80%;
-  margin: auto;
-}
-.logo_centen {
-  position: absolute;
-  top: 50%;
-  left: 7%;
-  z-index: -1;
-}
-.logo_raad {
-  position: absolute;
-  top: 50%;
-  left: 38%;
-  z-index: -1;
-}
-.logo_resto {
-  position: absolute;
-  top: 70%;
-  left: 57%;
-  z-index: -1;
-}
-.logo_kot {
-  position: absolute;
-  top: 50%;
-  left: 68%;
-  z-index: -1;
-}
-.logo_sport {
-  position: absolute;
-  top: 68%;
-  left: 22%;
-  z-index: -1;
-}
 /* Diensten APART */
 
 .terugknop {
@@ -945,4 +861,92 @@ margin-top:20%;
   margin-right: 5%;
   width: 90%;
   text-align: center;
+}
+/*OVERLAYS*/
+
+@font-face {
+    font-family:Quicksand;
+    src:url(Quicksand_Bold.otf);
+}
+div.overlay {
+    background-color: rgba(0, 0, 0, .25);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+div.overlay > div.login-wrapper {
+    align-self: center;
+    background-color: rgba(0, 0, 0);
+    padding: 6px;
+    width: 100%;
+}
+div.overlay > div.login-wrapper > div.login-content {
+    background-color: rgba(245, 245, 245, 0.8);
+    padding: 24px;
+    position: relative;
+    height: 100vh;
+}
+div.overlay > div.login-wrapper > div.login-content > h3 {
+    color: rgb(0, 0, 0);
+    font-family:sans-serif;
+    font-size: 1.8em;
+    margin: 0 0 1.25em;
+    padding: 0;
+}
+
+a.close {
+    font-family: sans-serif;
+    font-size: .8em;
+    padding: .2em 0.5em;
+    position: absolute;
+    top: 1.25rem;
+    transition: all 400ms ease;
+    right: 1.25rem;
+    margin-top: 20px;
+}
+.bever {
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    right: 5px;
+    top: -70px;
+}
+.menu_uitleg {
+    font-size: 15px;
+    font-family: Quicksand;
+    margin-top: 15px;
+    margin-left: 17px;
+}
+.News_uitleg {
+    font-size: 15px;
+    font-family: Quicksand;
+    margin-top: 120px;
+    margin-left: 55px;
+}
+.Bever_sluit {
+    font-size: 15px;
+    font-family: Quicksand;
+    margin-top: 350px;
+}
+.pijl_menu {
+    width: 50px;
+    height: 50px;
+}
+.pijl_menu_2 {
+    position: absolute; 
+    margin-left: -72px; 
+}
+.uitleg_news_p {
+    position: absolute;
+    margin-top: 10px;
+}
+.uitleg_event_p {
+    font-family: Quicksand;
+    font-size: 15px;
+    margin-top: 310px;
 }
