@@ -16,7 +16,11 @@ abody {
   /*margin-left: -180px;*/
   display: none;
   position: absolute;
+<<<<<<< Updated upstream
   margin-top: -18px;
+=======
+  margin-top: -15px;
+>>>>>>> Stashed changes
 }
 .main li {
   list-style-type: none;
@@ -760,7 +764,7 @@ h1.selected_campus {
   margin-top: 25%;
   margin-bottom: 5%;
 }
-.slider {
+/*.slider {
   margin: auto;
   margin-top: 20%;
   padding: 7%;
@@ -770,16 +774,14 @@ h1.selected_campus {
   margin-top: 20%;
   margin-bottom: 5%;
   clear: both;
-}
+}*/
 .content_menu {
-  font-size: 65%;
+  font-size: 7px;
 }
 .dagvdweek {
-  font-size: 70%;
-  margin: auto;
+  font-size: 5px;
 }
 .gerechten_categorie {
-  font-weight: 700;
   font-size: 60%;
 }
 .gerechten_content {} .arrow_campuslinks {
@@ -856,13 +858,12 @@ RestoPagina
 }
 #restomenu .slider {
   margin: auto;
-  padding: 7%;
-  max-width: 60%;
+  
   background-color: rgb(222, 222, 222);
   text-align: center;
   margin-top: 5%;
   margin-bottom: 5%;
-  clear: both;
+  width: 200px;
 }
 #restomenu h1 {
   text-align: center;
@@ -872,16 +873,8 @@ RestoPagina
   float: left;
   vertical-align: top;
 }
-#restomenu p {
-  font-size: 15px;
-}
 .content_menu1, .content_menu2, .content_menu3, .content_menu4, .content_menu5, .content_menu6{
   margin-top: 5px;
-}
-#restomenu .slider h2 {
-  font-weight: 900;
-  margin-top: 15px;
-  font-size: 18px;
 }
 #restomenu .slider .weekdag {
   font-size: 18px;
@@ -931,7 +924,11 @@ margin-top:20%;
   margin: 2%;
   background-color: rgb(220, 220, 220);
   display: inline-block;
+<<<<<<< Updated upstream
     width:20px;
+=======
+  width:20px;
+>>>>>>> Stashed changes
 	height:20px;
 }
 /*sponsors pagina */
