@@ -6,7 +6,7 @@
 	border-top:1px solid #aaa;
 	border-bottom:1px solid #aaa;
 	font-size: 7px;
-	z-index: -40px;
+	z-index: -40;
 }
 
 #nav {
@@ -56,7 +56,7 @@
 	-webkit-box-pack:center;
 	-webkit-box-align:center;
 	overflow:hidden;
-	z-index: -40px;
+	z-index: -40;
 }
 
 #swipeview-slider span {
