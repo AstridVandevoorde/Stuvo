@@ -659,6 +659,7 @@ STUDENTENRESTO
 
 .logoresto {
   width: 40%;
+display:block;
   margin-left: 30%;
   margin-top: 5%
 }
