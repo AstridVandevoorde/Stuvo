@@ -30,10 +30,10 @@ $(document).ready(function () {
                 $('.titel_detail').text(titel);
                 $('.tekst_detail').text(tekst);
                 if(link){
-                    $('.tekst_detail').append('<br>' + '<br>' + '<a href="'+link+'">Ga naar de website</a>');
+                    $('.tekst_detail').append('<br>' + '<br>' + '<a class="link_website" href="'+link+'">Ga naar de website</a>');
                 }
                 if(fb){
-                    $('.tekst_detail').append('<br>' + '<br>' + '<a href="http://www.facebook.com/'+fb+'">Ga naar de facebook</a>');
+                    $('.tekst_detail').append('<br>' + '<br>' + '<a class="link_facebook" href="http://www.facebook.com/'+fb+'">Ga naar de facebook</a>');
 
                 }
             

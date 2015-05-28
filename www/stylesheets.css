@@ -144,6 +144,21 @@ li {
 .terug_knop_a {
 	text-decoration: none;
 }
+.link_facebook{
+  color: white;
+  text-decoration: none;
+  background-color: red;
+  padding: 3px 10px;
+  border-radius: 10px;
+}
+.link_website{
+  color: white;
+  text-decoration: none;
+  background-color: red;
+  padding: 3px 15px;
+  border-radius: 10px;
+  
+}
 /**********Settings***********/
 
 .squaredFour h1,
@@ -825,7 +840,11 @@ h1.selected_campus {
 	margin-right: 10%;
 	width: 80%;
 	padding: 5% 0;
+  text-decoration: none;
 	margin-bottom: 20px;
+}
+#campusSelectie a{
+  text-decoration: none;
 }
 /*
 RestoPagina
